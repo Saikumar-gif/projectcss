@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Travial</title>
+    <style>
+
+
+*{
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0%;
+}
+
+
+
+
+.container{
+            
+            justify-content: space-between;
+        font-size: 25px;
+        background-color: white;}
+       .item{ display: flex;
+        justify-content: space-between;
+        gap: 5%;
+        padding: 2px;
+    
+        
+       }
+
+
+       header{
+        position: sticky;
+        top: 0;
+       }
+
+
+
+        .container1{
+            width: 100%;
+          
+            background-color: rgb(232, 222, 222);
+            height: 10%;
+            padding: 5%;
+            
+        }
+        
+        
+
+        .container3{
+            display: grid;
+            grid-template-columns: auto auto ;
+           justify-content: space-around;
+           gap: 10px;
+           padding: 10px;
+           animation:backOutRight; 
+           animation-duration: 2s;
+           
+        } a{
+            text-decoration: none;
+            
+   
+      
+          }
+
+
+            .container5{
+              width: 100%;
+              height:40vh;
+              padding: 2%;
+              
+              
+            
+            
+            }
+            .container5:hover{
+              box-shadow: 4px 8px 26px;
+            
+
+            }
+
+
+            .container4{
+          
+
+      display: grid;
+      grid-template-columns: auto auto auto;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+        justify-content: center;
+        gap: 25px;
+        background-color: rgb(250, 246, 246);
+
+        animation:fadeInDown; 
+           animation-duration: 2s;
+        
+      
+        
+            }
+
+
+            .container6{
+              display: grid;
+              grid-template-columns: auto auto;
+              padding: 10px;
+            }
+
+            .umb{
+              width: 100%;
+
+              height: 15vh;
+              background-color: rgb(30, 30, 55);
+              color: white;
+            }
+
+            .ad{
+              display: grid;
+              grid-template-columns: auto auto;
+              width: 100%;
+              
+              padding: 10px;
+              gap: 10px;
+            }
+            
+      
+          
+            
+            .ad3{
+              display: grid;
+              grid-template-rows: auto auto auto;
+              padding: 10px;
+              gap: 10px;
+            }
+
+
+            .sai{
+              display: grid;
+              grid-template-columns: auto auto auto auto;
+            }
+            .abc:hover{
+              transform: scale(1.1);
+              transition: 2s;
+            
+            }
+
+            .menu{
+              display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        background-color: rgb(5, 5, 33);
+        color: white;
+            }
+            
+  
+
+
+
+
+
+            @media screen and(width<576px){
+    .container2,.container1,.container4,.container5,.container6,.sai,.menu,.ad,.ad3{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        
+    }
+}
+@media screen and (width>576px) and (width<768px){
+
+
+.container2,.container1,.container4,.container5,.container6,.sai,.menu,.ad,.ad3{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    
+    
+}
+}
+
+@media screen and (width>768px) and (width<992px){
+
+
+.container2,.container1,.container4,.container5,.container6,.sai,.menu,.ad,.ad3{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    
+    
+}
+}
+
+@media screen and (width>992px){
+
+
+.container2,.container1,.container5,.container6,.sai,.menu,.ad,.ad3{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    
+    
+}
+}
+            
+            
+
+
+
+
+
+          
+  
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+<!--navbar-->
+
+  <header>
+    <div class="container">
+    
+    <nav>
+        <ul class="item" > 
+
+            <a style="color: black;; font-weight: 900; font-size: 1.3em;animation:bounce; 
+           animation-duration: 2s;" href="index.html">Travial</a>
+            <a href="#men">Home</a>
+            <a href="about.html"> About</a>
+            <a href="#pages">Pages</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </div>
+  <section id="abo">  
+
+</header>
+
+
+
+
+
+      
+
+
+
+
+    
+          
+            
+             <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          
+              
+           
+               <!-- Wrapper for slides -->
+               <div class="carousel-inner" >
+                 <div class="item active">
+                   <img src="679db9d2e9049fbc880585f6_hero-slider3.webp" alt="Los Angeles" style="width:100%;" height="100%">
+                 </div>
+           
+                 <div class="item">
+                   <img src="679db9d1bc1e4addf7d266a3_hero-slider1.webp" alt="Chicago" style="width:100%;" height="100%">
+                 </div>
+               
+                 <div class="item">
+                   <img src="679db9d1714581fb8915668f_hero-slider2.webp" alt="New york" style="width:100%;" height="100%">
+                 </div>
+               </div>
+           
+             </div>
+             
+              
+             </section>
+             <section id="men">
+
+
+             <div style="padding: 5%; ">
+             <center> <h1 style="font-size:40PX ; font-weight: 600; color: rgb(47, 43, 43);">Capturing the world’s stunning beauty, one epic adventure at a time!</h1>
+              <h3>Every destination tells a story, and through my lens, I capture moments that turn into timeless memories. These moments inspire and connect us, sharing the beauty of the world.</h1>
+
+                
+
+                <button style="width: 20%; height: 15%; background: #090118;color: white; padding: 2%;">Eplore more </button><button  style="width: 20%; height: 15%; background: #090118;color: white; padding: 2%;">View portfolio</button>
+
+              
+             </center>
+
+
+             </div>
+
+
+            </section>
+
+
+
+
+
+
+
+             <div class="container3">
+             <div>
+
+
+             <center> <img  class="abc" src="679afe6f52cb201db4264d94_thumb1.webp"  alt=none style="width:100%; height:100%; "></center>
+        
+        
+      </div>
+      <center>
+      <div style="line-height: 100%; flex-wrap: wrap; padding: 10%;">
+       <h1 style="font-weight: 600; line-height:;">About me</h1>
+        
+        <h4 style="padding: 5%;">Hi, I’m Saikumar, a travel content creator passionate about capturing the world’s beauty. Through my lens, I share stories of unforgettable journeys, from that vibrant city streets to serene landscapes.</h4>
+        <br>
+        
+        <h4 style="padding: 5%;">My goal is to inspire others to explore and experience the world with fresh eyes, one frame at a time.</h4>
+      
+
+       <button style="background-color: rgb(4, 4, 34); color: white; width: 20%;height: 20%; ">More about</button></center>
+
+      </div>
+    </div>
+
+
+        <video src="67987fc0c32caf941c776bef_679b3bf88f32120b00dc1419_videoss-transcode.mp4" width="100%" height="100%" controls></video>
+        <br>
+
+
+        <center><h1 style="font-weight: 900;font-size: 6em;">My travel creations</h1></center>
+
+        
+        <div class="container3" style="padding: 6%;">
+          <div class="ac">
+
+
+        <img  class="abc" src="679b8238bf03587f6fa132b8_portfolio8-p-1080.webp" style="width: 90%; height: 60%; border-radius: 5%;">
+
+        <h1>savoring stunning views from a perfect getaway spot</h1>
+
+        <h4>Relishing breathtaking natural vistas from ideal retreat, embracing the calm and serene beauty of the place.</h4>
+        <br>
+
+        </div>
+
+
+        <div  class="ac" >
+
+        <img  class="abc" src="a1.jpg"  style="width: 90%; height: 60%; border-radius: 5%;">
+         <h1>capturingt the best moments of every travel journey.</h1>
+
+         <h4>Every journey tells a story, and through my lens, I capture the beauty and moments that make each adventure unique.</h4>
+
+         </div>
+
+         <div  class="ac">
+          <img  class="abc" src="ab.webp"   style="width: 90%; height: 60%; border-radius: 5%;">
+          
+
+          <h1>Coastal journeys the retro van adventure.</h1>
+          <h4>
+            Where the wilderness meets peace, and the sunset paints the sky with pure serenity and quiet beauty.</h4>
+
+
+         </div>
+
+
+         <div  class="ac">
+
+          <img  class="abc" src="a3.webp"  style="width: 90%; height: 60%; border-radius: 5%;">
+
+          <h1>awakening-to-adventure-was-a-peaceful-morning-in-nature</h1>
+
+          <h4>
+            Embracing the dawn of adventure, a serene morning surrounded by nature’s calm and vibrant beauty.</h4>
+
+
+         </div>
+
+         <div  class="ac">
+
+          <img  class="abc" src="a4.webp"   style="width: 90%; height: 60%; border-radius: 5%;">
+
+          <h1>capturing-the-moment-sunset-by-the-shore</h1>
+
+          <h4>
+            Seizing the perfect moment, where the vibrant sunset meets the calm shore in peaceful harmony.</h4>
+
+
+         </div>
+
+
+         <div  class="ac">
+
+          <img  class="abc" src="a5.webp"   style="width: 90%; height: 60%; border-radius: 5%;">
+
+          <h1>soaring-high-a-moment-of-pure-joy-in-freefall</h1>
+
+          <h4>Chasing the wind, a moment of pure joy and freedom as you soar in the thrilling rush of freefall!</h4>
+
+ 
+
+
+
+         </div>
+         </div>
+        </div>
+
+        
+
+
+         <center><button style="background-color: rgb(4, 4, 34); color: white; width: 30%; ">View all video</button></center>
+
+        
+
+          <br>
+          <section id="pages">
+
+         <div style="background-color:rgb(188, 184, 184);">
+         <center> <h1 style="font-weight: 900;font-size: 4em;">Explore the world with my expertise</h1></center>
+         </div>
+
+
+
+
+
+
+    
+         <div class="container4" style="padding: 5%;">
+
+         
+          <div class="container5" style="padding: 5%;border-radius: 2%;" >
+            <center>
+
+            <div>
+              <i class="fa fa-globe" style="font-size:36px"></i>
+
+            </div>
+
+            <div>
+            <h2>  Travel planning</h2>
+            </div>
+            <div><span style="font-size: 1.2em;">Personalized itineraries, tailored inspire accommodations, curated activities, seamless planning to  your trip.</span></div>
+          </center>
+
+
+
+            </div>
+
+
+
+
+
+            
+            <div class="container5" style="border-radius: 2%;">
+              <center>
+  
+              <div>
+                <i class="fa fa-lightbulb-o" style="font-size:36px"></i>
+  
+              </div>
+  
+              <div>
+               <h2> Content creation </h2>
+              </div>
+              <div style="font-size: 1.2em;">Unleashing creativity through visuals and engaging narratives, content creation connects audiences with stories.</div>
+            </center>
+  
+  
+  
+              </div>
+
+
+              <div class="container5"  style="border-radius: 2%;">
+                <center>
+    
+                <div>
+                  <i class="fa fa-microphone" style="font-size:36px"></i>
+    
+                </div>
+    
+                <div>
+                <h2>  Social media marketing </h2>
+                </div>
+                <div style="font-size: 1.2em;">Harnessing the power of platforms engage to audiences, build brands, and drive
+                  & meaningful connections.</div>
+              </center>
+                </div>
+
+
+                <div class="container5"  style="border-radius: 2%;">
+                  <center>
+      
+                  <div>
+                    <i class="fa fa-handshake-o" style="font-size:36px"></i>
+      
+                  </div>
+      
+                  <div>
+                   <h2> Influencer collaborations </h2>
+                  </div>
+                  <div style="font-size: 1.2em;">Partnering with trusted voices of influence to amplify reach, build genuine trust, and create authentic connections.</div>
+                </center>
+                  </div>
+
+
+
+                  <div class="container5"  style="border-radius: 2%;">
+                    <center>
+        
+                    <div>
+                      <i class="fa fa-cogs" style="font-size:36px"></i>
+        
+                    </div>
+        
+                    <div>
+                    <h2>  Workshops and tours </h2>
+                    </div>
+                    <div style="font-size: 1.2em;">Offering immersive workshops and guided tours to inspire learning, exploration, and unforgettable experiences.</div>
+                  </center>
+                    </div>
+
+
+                    <div class="container5"  style="border-radius: 2%;">
+                      <center>
+          
+                      <div>
+                        <i class="fa fa-handshake-o" style="font-size:36px"></i>
+          
+                      </div>
+          
+                      <div>
+                       <h2> Consultation services  </h2>
+                      </div>
+                      <div style="font-size: 1.2em;">Providing expert consultation services to guide decisions, solve challenges, and achieve your goals effectively.</div>
+                    </center>
+                      </div>
+
+
+
+            </div> 
+          </section>
+
+            <br>
+
+
+
+            <div><center><h1 style="font-size: 5em; font-weight: 900;">My travel creations</h1></center></div>
+             
+
+          
+            <br>
+            <br>
+
+            <div class="container" style="width: 100%;">
+              <!-- <h2>Carousel Example</h2>  -->
+               <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="container6">
+                  <div class="item4" style="background-color: rgb(168, 167, 167);">
+                  
+                  <h2 style="font-weight: 600;">Sophia Green</h2>
+                  <p>Content Writer</p>
+             
+                  <br>
+                  <h3>Collaborating with Travial was one of the best ever decisions for our brand! Their content captured every detail of our destinations with creativity and highly professionalism.
+      
+                  </h3>
+                  <p>Each story was brought to life, leaving our audience inspired and eager to explore more.</p>
+      
+                  <br>
+                  <h3 style="font-weight: 600; ">BravelLeaf</h3>
+                  
+                  
+                  </div>
+      
+                  <div class="item5">
+                      <img  class="abc" src="c1.webp" width="100%" height="100%">
+                  </div>
+      
+      
+              </div>
+              </div>
+        
+              <div class="item" style="background-color: rgb(168, 167, 167);">
+
+
+                <div class="container6">
+                  <div class="item4">
+                  
+                  <h2 style="font-weight: 600;">Alex Morgan
+                        </h2>
+                  <p>CEO & Founder</p>
+             
+                  <br>
+                  <h3>
+                    Partnering with Travial was an incredible decision for our brand! Their content showcased our destinations with exceptional creativity and professionalism.
+      
+                  </h3>
+                  <p>Each story they crafted felt immersive and inspiring, leaving our audience excited and ready.</p>
+      
+                  <br>
+                  <h3 style="font-weight: 600;">BravelLeaf</h3>
+                  
+                  </div>
+      
+                  <div class="item5" >
+                      <img  class="abc" src="c2.webp" width="100%" height="100%">
+                  </div>
+      
+      
+              </div>
+                
+
+
+              </div>
+            
+              <div class="item" style="background-color: rgb(168, 167, 167);">
+
+
+           
+              <div class="container6">
+                <div class="item4">
+                
+                <h2 style="font-weight: 600;">Sophia Martinez
+                      </h2>
+                <p>Product Manager</p>
+           
+                <br>
+                <h3>
+                  Collaborating with Travial was truly a game-changer for our brand! Their content perfectly captured the essence of our destinations with outstanding creativity and professionalism.
+                  
+                </h3>
+                <p>Every story they told felt vibrant and engaging, leaving our audience inspired and eager to explore</p>
+    
+                <br>
+                <h3 style="font-weight: 600;">BravelLeaf</h3>
+                
+                </div>
+    
+                <div class="item5">
+                    <img  class="abc" src="c3.webp" width="100%" height="100%">
+                </div>
+    
+    
+            </div>
+              </div>
+            </div>
+
+            <br>
+
+         <marquee class="umb"><center><h1 style="word-spacing:90px ; font-size: 3.4em; ">umbrella   Greenish   Sitemark  network  luminous </h1> </center></marquee>     
+
+
+         <br>
+
+    
+         <div>
+         <center> <h1 style="font-size: 2em; font-weight: 800;">Travel stories & resources</h1> </center>
+         </div>
+
+
+
+
+
+         <div class="ad">
+          <div class="ad1">
+            <img  class="abc" src="d1.webp"  style="height:70%; width: 100%;">
+            <span>Adventure
+              February 15, 2025</span>
+              <h1>discovering-unforgettable-travel-stories-along-your-journey</h1>
+              <h4>
+                Explore tips and tricks for taking stunning travel photos and videos, even in the most challenging conditions.</h4>
+                <span>Read more</span>
+          </div>
+
+          <div class="ad1">
+
+            <div class="ad3">
+              <div class="abc">
+
+              <img  class="abc" src="d2.webp"  style="height: 100%; width: 100%;">
+            </div>
+            <div>
+
+              <h4>Travel
+              January 31, 2025</h4>
+
+              <h2>Master-the-art-of-vlogging-your-best-adventures-with-creativity</h2>
+
+              <span>Read more</span>
+            </div>
+            </div>
+
+            <div class="ad3">
+              <div class="abc">
+
+              <img  class="abc" src="d3.webp"   style="height: 100%; width: 100%;">
+            </div>
+            <div>
+              <h4>Memories
+                January 31, 2025</h4>
+                <h1>Timeless memories for travel lovers seeking endless adventure</h1>
+              </div>
+
+
+            </div>
+
+            <div class="ad3">
+              <div class="abc1">
+              <img  class="abc" src="d4.webp" style="height: 100%; width: 100%;">
+            </div>
+            <div class="abcd">
+              <h4>Creativity
+                January 31, 2025</h4>
+
+                <h1>Top trvel gear for every content creator on the go anywher</h1>
+                <span>Read more</span>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+         </div>
+
+
+
+
+         <div>
+
+          <section id="blog">
+
+          <center>
+            <h1 style="color:solid black; font-weight: 800;">Most asked questions</h1>
+          </center>
+          <br>
+        <ul>
+            <li>
+                <details>
+                    <summary>
+                     <h3>Can I use blog posts in my portfolio?</h3> 
+                    </summary>
+                    <p>It’s a showcase of your best travel photos, videos, and stories, highlighting your creativity and travel experiences.</a></p>
+                    
+    
+                </details>
+            </li>
+        </ul>
+        <hr>
+        <ul>
+            <li>
+                <details>
+                  <summary>
+                  <h3>  How do you approach a new project?</h3>
+                  </summary>
+                  <p>A collection of your most breathtaking travel moments, captured through stunning visuals and compelling stories.</a></p>
+                  
+  
+                    
+                </details>
+            </li>
+        </ul>
+    <hr>
+      
+    
+    <ul>
+        <li>
+            <details>
+              <summary>
+              <h3>  What industries do you specialize in?</h3>
+              </summary>
+              <p>A curated display of your best travel photos, videos, and experiences, reflecting your unique adventures and creativity.</a></p>
+              
+                
+            </details>
+        </li>
+    </ul>
+    <hr>
+    <ul>
+        <li>
+            <details>
+
+              <summary>
+              <h3>  How long does a typical project take?</h3>
+              </summary>
+              <p>A vibrant mix of captivating travel shots, immersive videos, and personal narratives from your journeys around the world.</a></p>
+              
+                
+            </details>
+        </li>
+    </ul>
+        
+    <hr>
+
+
+    <ul>
+      <li>
+          <details>
+              <summary>
+              <h3>  What is your pricing structure?</h3>
+              </summary>
+              <p>A visual diary of your most memorable travels, blending artistic photography, dynamic videos, and heartfelt stories.</a></p>
+              
+
+          </details>
+      </li>
+  </ul>
+  <hr>
+  <ul>
+      <li>
+          <details>
+            <summary>
+             <h3> How do I attract clients with my portfolio?</h3>
+            </summary>
+            <p>A showcase of your finest travel captures, storytelling, and cinematic clips that bring your adventures to life.</a></p>
+            
+
+              
+          </details>
+      </li>
+  </ul>
+
+<hr>
+
+<ul>
+  <li>
+      <details>
+        <summary>
+        <h3>  Can I update my portfolio?</h3>
+        </summary>
+        <p>A curated collection of your best travel photos, videos, and stories, capturing unforgettable moments from around the world.</a></p>
+        
+          
+      </details>
+  </li>
+</ul>
+<hr>
+<ul>
+  <li>
+      <details>
+
+        <summary>
+         <h3> What type of content should I feature?</h3>
+        </summary>
+        <p>A showcase of your most creative travel experiences, blending stunning visuals with immersive storytelling</a></p>
+        
+          
+      </details>
+  </li>
+</ul>
+
+
+<hr>
+
+
+<ul>
+  <li>
+      <details>
+        <summary>
+        <h3>  How often should I update my portfolio?</h3>
+        </summary>
+        <p>A collection of breathtaking travel shots, dynamic videos, and personal narratives highlighting your adventures.</a></p>
+        
+          
+      </details>
+  </li>
+</ul>
+<hr>
+<ul>
+  <li>
+      <details>
+
+        <summary>
+         <h3> Can I include testimonials in my portfolio?</h3>
+        </summary>
+        <p>A vibrant mix of photography, video highlights, and compelling stories that bring your travels to life.</a></p>
+        
+          
+      </details>
+  </li>
+</ul>
+  <hr>
+
+         </div>
+
+
+
+        </section>
+
+<div class="sai" style="width: 100%;" >
+
+  <img class="abc" src="e1.webp" style="width: 100%; height: 100%;" >
+  <img class="abc" src="e2.webp" style="width: 100%; height: 100%;">
+  
+  <img class="abc" src="e4.webp" style="width: 100%; height: 100%;">
+  
+  <img class="abc" src="e6.webp" style="width: 100%; height: 100%;">
+
+
+
+</div>
+
+
+
+
+
+
+<div class="menu" style="width: 100%;">
+
+  <div>
+    <h1>Trivial</h1>
+    <p>Thesis is a magazine-style template on Webflow, packed with powerful features and designed to be fully responsive and mobile-friendly.</p>
+
+    <i class="fa fa-facebook-f" style="font-size:24px"></i>
+    <i class="fa fa-instagram" style="font-size:24px"></i>
+    <i class="fa fa-youtube-play" style="font-size:24px"></i>
+  </div>
+
+  <div>
+    <h2>Menu</h2>
+
+    <h4>Home</h4>
+    <h4>About Me</h4>
+    <h4>Portfolio</h4>
+    <h4>Blog</h4>
+  </div>
+
+  <div>
+    <h2>Pages</h2>
+    <h4>Style Guide</h4>
+    <h4>Licenses</h4>
+    <h4>Changelog</h4>
+  </div>
+
+
+  <div>
+    <h2>Address</h2>
+    <h4>Bhupalpally,Telangana,India</h4>
+    <h2>Inquiries</h2>
+    <h4>9346917767</h4>
+    <h4>saikumarjadala627@gmail.com</h4>
+  </div>
+
+
+  <div>
+    <h2>Newsletter</h2>
+    <input type="email" placeholder="YourEmail"> 
+    <br>
+    <button style="background-color: rgb(9, 9, 54); width: 60%;">Join!</button>
+
+
+  </div>
+
+
+  
+</div>
+<hr>
+
+
+<div style="background-color: rgb(9, 9, 43); color: white;">
+  
+ <center> <p> &copy; 2025 MyWebsite. All rights reserved.</p></center>
+
+
+
+
+
+</div>
+
+        
+
+    
+    
+</body>
+</html>
